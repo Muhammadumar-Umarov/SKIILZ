@@ -1,64 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/output.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/png" href="./images/logo.png">    <title>Skillz</title>
+    <link rel="stylesheet" href="./css/output.css" />
 </head>
+
 <body class="font-[SourceSansPro]">
-    <div class="bg-[#57D9A6] py-[8px] text-center max-[1024px]:py-[6px] max-[480px]:hidden">
-        <p class="text-[18px] text-[#1C1C33] leading-[27px] max-[1024px]:text-[16px]">One week only—50% off all courses with code 50OFF at checkout</p>
+    <div class="bg-[#57D9A6] py-[8px] text-center max-[1024px]:py-[6px] max-[480px]:py-[2px]">
+        <p
+            class="text-[18px] text-[#1C1C33] leading-[27px] max-[1024px]:text-[16px] max-[1024px]:leading-[21px] max-[480px]:text-[14px] max-[480px]:leading-[18px] max-[395px]:text-[11px] max-[395px]:leading-[16px]">
+            One week only—50% off all courses with code 50OFF at checkout
+        </p>
     </div>
     <header class="bg-[#1C1C33] py-[24px] max-[768px]:py-[20px] max-[480px]:py-[16px]">
-        <div class="container mx-auto flex items-center justify-between ">
+        <div class="container mx-auto flex items-center justify-between">
             <div>
-                <img src="./images/logo.svg" alt="">
+                <img src="./images/logo.svg" alt="Logo-image"/>
             </div>
             <nav class="max-[768px]:hidden">
                 <ul class="flex items-center gap-[32px]">
-                    <li><a class="text-[#F6F6F8]" href="#"><span>Courses</span></a></li>
-                    <li><a class="text-[#F6F6F8]" href="#"><span>Free Workshops</span></a></li>
-                    <li><a class="text-[#F6F6F8]" href="#"><span>Blog</span></a></li>
-                    <li><a class="text-[#F6F6F8]" href="#"><span>About</span></a></li>
-                    <li><a class="text-[#F6F6F8]" href="#"><span>Contact</span></a></li>
+                    <li>
+                        <a class="text-[#F6F6F8] hover:underline" href="#courses"><span>Courses</span></a>
+                    </li>
+                    <li>
+                        <a class="text-[#F6F6F8] hover:underline" href="#freeWorshops"><span>Free Workshops</span></a>
+                    </li>
+                    <li>
+                        <a class="text-[#F6F6F8] hover:underline" href="#"><span>Blog</span></a>
+                    </li>
+                    <li>
+                        <a class="text-[#F6F6F8] hover:underline" href="#"><span>About</span></a>
+                    </li>
+                    <li>
+                        <a class="text-[#F6F6F8] hover:underline" href="#"><span>Contact</span></a>
+                    </li>
                 </ul>
             </nav>
             <div class="flex items-center relative">
-                <img class="max-[768px]:hidden" src="./images/shopping-cart.svg" alt="">
-                <span class="text-[11px] leading-[18px] text-[#f6f6f8] bg-[#FC5468] rounded-full px-[6px] absolute top-[-2px] right-[-8px] max-[768px]:hidden">0</span>
-                <img class="hidden max-[768px]:flex max-w-[28px]" src="./images/icons8-menu WHITE.svg" alt="">
+                <img class="max-[768px]:hidden hover:cursor-pointer" src="./images/shopping-cart.svg" alt="" />
+                <span
+                    class="text-[11px] leading-[18px] text-[#f6f6f8] bg-[#FC5468] rounded-full px-[6px] absolute top-[-2px] right-[-8px] max-[768px]:hidden">0</span>
+                <img class="hidden max-[768px]:flex max-w-[28px] hover:cursor-pointer" src="./images/icons8-menu WHITE.svg" alt="" />
             </div>
         </div>
     </header>
-
     <main>
-        <section class="bg-[#23233B] pt-[112px]">
-            <div class="container mx-auto flex items-center justify-start">
+        <section class="bg-[#23233B] pt-[112px] max-[480px]:pt-[82px]">
+            <div
+                class="container mx-auto flex items-center justify-start gap-[20px] max-[785px]:flex-col max-[785px]:items-start max-[785px]:gap-[30px]">
                 <div>
-                    <div class="max-w-[150px] border-b-2 border-[#57D9A6] mb-[59px] max-[1110px]:mb-[43px]">
-                        <p class="uppercase leading-[21px] text-[#f6f6f8] pb-[7px]">Featured Course</p>
+                    <div
+                        class="max-w-[150px] border-b-2 border-[#57D9A6] mb-[59px] max-[1110px]:mb-[43px] max-[962px]:mb-[38px]">
+                        <p
+                            class="uppercase leading-[21px] text-[#f6f6f8] pb-[7px] tracking-[1px] max-[962px]:leading-[19px]">
+                            Featured Course
+                        </p>
                     </div>
                     <div>
-                        <h1 class="text-[55px] leading-[61px] font-[700] text-[#f6f6f8] mb-[22px] max-[1110px]:text-[50px] max-[1110px]:leading-[49px] max-[1110px]:mb-[20px]">Run your own online learning platform</h1>
+                        <h1
+                            class="text-[55px] leading-[61px] font-[700] text-[#f6f6f8] mb-[22px] max-[1110px]:text-[50px] max-[1110px]:leading-[49px] max-[1110px]:mb-[20px] max-[962px]:text-[46px] max-[962px]:leading-[45px] max-[962px]:mb-[18px]">
+                            Run your own online learning platform
+                        </h1>
                     </div>
                     <div class="max-w-[548px]">
-                        <p class="text-[#f6f6f8] text-[22px] leading-[33px] mb-[22px] max-[1110px]:text-[20px] max-[1110px]:leading-[30px] max-[1110px]:mb-[20px]">A deep-dive on the Instagram algorythm, hashtags, content strategy, and branding.</p>
+                        <p
+                            class="text-[#f6f6f8] text-[22px] leading-[33px] mb-[22px] max-[1110px]:text-[20px] max-[1110px]:leading-[30px] max-[1110px]:mb-[20px] max-[962px]:text-[18px] max-[962px]:leading-[26px]">
+                            A deep-dive on the Instagram algorythm, hashtags, content
+                            strategy, and branding.
+                        </p>
                     </div>
-                    <p class="text-[17px] leading-[27px] text-[#B2B2BF] mb-[48px] max-[1110px]:mb-[44px]">Kathryn Murphy</p>
+                    <p
+                        class="text-[17px] leading-[27px] text-[#B2B2BF] mb-[48px] max-[1110px]:mb-[44px] max-[962px]:text-[16px] max-[962px]:mb-[44px]">
+                        Kathryn Murphy
+                    </p>
                     <div>
-                        <button class="bg-[#57D9A6] h-[59px] px-[24px] rounded-[4px] text-[18px] leading-[27px] text-[#1C1C33] max-[1110px]:h-[55px] max-[1110px]:px-[22px] ">LEARN MORE</button>
+                        <button
+                            class="bg-[#57D9A6] h-[59px] px-[24px] rounded-[4px] text-[18px] leading-[27px] text-[#1C1C33] max-[1110px]:h-[55px] max-[1110px]:px-[22px] max-[962px]:text-[16px] max-[962px]:h-[47px] max-[962px]:px-[20px] tracking-[1px] max-[480px]:text-[14px]">
+                            LEARN MORE
+                        </button>
                     </div>
                 </div>
-                                                                <!-- MEDIADA 964PX GA KELGANIDA TOXTATILDI. FLEX-COL QILISH KERAK NAZARIMDA -->
-                <div class="max-[1110px]:max-w-[480px]">
-                    <img class="w-full" src="./images/hero.svg" alt="">
+                <!-- MEDIADA 964PX GA KELGANIDA TOXTATILDI. FLEX-COL QILISH KERAK -->
+                <div class="max-[1110px]:max-w-[480px] max-[962px]:max-w-[400px]">
+                    <img class="w-full" src="./images/hero.svg" alt="" />
+                </div>
+            </div>
+        </section>
+        <section id="courses" class="pt-[288px] pb-[144px] bg-[#23233B] max-[480px]:pt-[180px] max-[480px]:pb-[80px]">
+            <div class="container mx-auto">
+                <div class="text-center">
+                    <div class="mb-[50px] text-center max-[1110px]:mb-[37px] max-[962px]:mb-[32px]">
+                        <p
+                            class="text-[44px] leading-[53px] font-[700] text-[#f6f6f8] pb-[17px] max-[962px]:leading-[42px]">
+                            Featured Course
+                        </p>
+                        <p class="border-b-2 border-[#57D9A6] max-w-[150px] mx-auto"></p>
+                    </div>
+                    <div>
+                        <p
+                            class="max-w-[644px] mx-auto text-center text-[#f6f6f8] text-[22px] leading-[33px] mb-[46px] max-[1110px]:text-[20px] max-[1110px]:leading-[30px] max-[1110px]:mb-[44px] max-[962px]:text-[18px] max-[962px]:leading-[26px] max-[768px]:mb-[40px] max-[480px]:mb-[36px] max-[480px]:text-[16px]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros elementum tristique. Duis
+                            cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                            commodo diam libero vitae erat.
+                        </p>
+                    </div>
+                    <div>
+                        <button
+                            class="bg-[#57D9A6] h-[59px] px-[24px] rounded-[4px] text-[18px] leading-[27px] text-[#1C1C33] max-[1110px]:h-[55px] max-[1110px]:px-[22px] max-[962px]:text-[16px] max-[962px]:h-[47px] max-[962px]:px-[20px] tracking-[1px] max-[480px]:text-[14px]">
+                            VIEW ALL COURSES
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                    class="grid grid-cols-3 gap-[48px] mt-[80px] max-[1100px]:grid-cols-2 max-[1100px]:gap-[90px] max-[930px]:gap-[40px] max-[690px]:grid-cols-1 max-[690px]:gap-[24px] max-[690px]:place-items-center">
+                    <div
+                        class="flex flex-col h-[430px] max-[1100px]:h-[480px] max-[940px]:h-[430px] max-[690px]:w-[75%] max-[560px]:w-[85%] max-[450px]:w-full max-[400px]:h-[380px]">
+                        <div class="card__image">
+                            <img class="w-full object-cover" src="./images/s1.svg" alt="" />
+                        </div>
+                        <div class="bg-white w-full h-full flex flex-col pt-[22px] pl-[24px] pb-[30px] max-[1200px]:pl-[18px] max-[1200px]:pt-[18px] max-[1200px]:pb-[24px]">
+                            <p class="text-[24px] leading-[28px] text-[#1C1C33] mb-[8px] max-[930px]:text-[22px] max-[930px]:leading-[26px] max-[930px]:mb-[6px] max-[480px]:text-[21px]">
+                                <span class="block">How to Increase Your</span> Engagement on
+                                Instagram
+                            </p>
+                            <p class="mb-[15px] text-[17px] leading-[27px] text-[#4E4E65] max-[930px]:text-[15px] max-[930px]:leading-[25px] max-[930px]:mb-[12px]">
+                                Katie Murphy
+                            </p>
+                            <p class="text-[22px] leading-[27px] text-[#1C1C33] flex-1 max-[930px]:text-[20px] max-[930px]:leading-[25px] max-[480px]:text-[18px]">
+                                $ 59.99 USD
+                            </p>
+                            <a class="leading-[21px] text-[#57D9A6] uppercase tracking-[1px] hover:underline" href="#">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex flex-col h-[430px] max-[1100px]:h-[480px] max-[940px]:h-[430px] max-[690px]:w-[75%] max-[560px]:w-[85%] max-[450px]:w-full max-[400px]:h-[380px]">
+                        <div class="card__image">
+                            <img class="w-full object-cover" src="./images/s2.svg" alt="" />
+                        </div>
+                        <div
+                            class="bg-white w-full h-full flex flex-col pt-[22px] pl-[24px] pb-[30px] max-[1200px]:pl-[18px] max-[1200px]:pt-[18px] max-[1200px]:pb-[24px]">
+                            <p class="text-[24px] leading-[28px] text-[#1C1C33] mb-[8px] max-[930px]:text-[22px] max-[930px]:leading-[26px] max-[930px]:mb-[6px] max-[480px]:text-[21px]">
+                                <span class="block">Business 101: Setting up Your</span> Taxes
+                            </p>
+                            <p class="mb-[15px] text-[17px] leading-[27px] text-[#4E4E65] max-[930px]:text-[15px] max-[930px]:leading-[25px] max-[930px]:mb-[12px]">
+                                Bessie Cooper
+                            </p>
+                            <p class="text-[22px] leading-[27px] text-[#1C1C33] flex-1 max-[930px]:text-[20px] max-[930px]:leading-[25px] max-[480px]:text-[18px]">
+                                <span class="text-[#B2B2BF]">$ 69.99 USD</span> $ 39.99 USD
+                            </p>
+                            <a class="leading-[21px] text-[#57D9A6] uppercase tracking-[1px] hover:underline" href="#">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-col h-[430px] max-[1100px]:h-[480px] max-[940px]:h-[430px] max-[690px]:w-[75%] max-[560px]:w-[85%] max-[450px]:w-full max-[400px]:h-[380px]">
+                        <div class="card__image object-cover">
+                            <img class="w-full" src="./images/s3.svg" alt="" />
+                        </div>
+                        <div
+                            class="bg-white w-full h-full flex flex-col pt-[22px] pl-[24px] pb-[30px] max-[1200px]:pl-[18px] max-[1200px]:pt-[18px] max-[1200px]:pb-[24px]">
+                            <p class="text-[24px] leading-[28px] text-[#1C1C33] mb-[8px] max-[930px]:text-[22px] max-[930px]:leading-[26px] max-[930px]:mb-[6px] max-[480px]:text-[21px]">
+                                <span class="block">iPhone Photography: Tips,</span> Tricks
+                                and Best Practices
+                            </p>
+                            <p class="mb-[15px] text-[17px] leading-[27px] text-[#4E4E65] max-[930px]:text-[15px] max-[930px]:leading-[25px] max-[930px]:mb-[12px]">
+                                Dianne Russell
+                            </p>
+                            <p class="text-[22px] leading-[27px] text-[#1C1C33] flex-1 max-[930px]:text-[20px] max-[930px]:leading-[25px] max-[480px]:text-[18px]">
+                                <span class="text-[#B2B2BF]">$ 69.99 USD</span> $ 39.99 USD
+                            </p>
+                            <a class="leading-[21px] text-[#57D9A6] uppercase tracking-[1px] hover:underline" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="h-[664px] bg-[url(../images/th.svg)] bg-no-repeat bg-cover w-[50%] relative max-[840px]:w-full">
+            <div
+                class="wrapper bg-[#1C1C33] absolute w-[100%] left-[50%] translate-x-[50%] pl-[48px] pr-[16px] h-full flex flex-col justify-center max-[840px]:left-0 max-[840px]:translate-x-[0] max-[840px]:bg-transparent max-[840px]:backdrop-blur-md max-[558px]:pl-[16px]">
+                <div
+                    class="mb-[50px] max-w-[513px] text-start max-[1110px]:mb-[37px] max-[962px]:mb-[32px] max-[384px]:max-w-[320px]">
+                    <p
+                        class="text-[44px] leading-[53px] font-[700] text-[#f6f6f8] pb-[17px] max-[962px]:leading-[42px] max-[480px]:text-[36px] max-[480px]:pb-[12px]">
+                        Get personalized learning recommendations
+                    </p>
+                    <p class="border-b-2 border-[#57D9A6] max-w-[150px] text-start"></p>
+                </div>
+                <div>
+                    <p
+                        class="max-w-[644px] text-start text-[#f6f6f8] text-[22px] leading-[33px] mb-[46px] max-[1117px]:text-[20px] max-[1110px]:leading-[30px] max-[1110px]:mb-[44px] max-[962px]:text-[18px] max-[962px]:leading-[26px] max-[768px]:mb-[40px] max-[480px]:mb-[36px] max-[480px]:text-[16px]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                        aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+                        urnaLorem ipsum dolor sit amet.
+                    </p>
+                </div>
+                <div>
+                    <button
+                        class="bg-[#57D9A6] h-[59px] px-[24px] rounded-[4px] text-[18px] leading-[27px] text-[#1C1C33] max-[1110px]:h-[55px] max-[1110px]:px-[22px] max-[962px]:text-[16px] max-[962px]:h-[47px] max-[962px]:px-[20px] tracking-[1px] max-[480px]:text-[14px] uppercase">
+                        Contact Us
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="freeWorshops" class="pt-[142px] bg-[#F5F5F5]">
+            <div class="container mx-auto">
+                <div class="text-center">
+                    <div class="mb-[50px] text-center max-[1110px]:mb-[37px] max-[962px]:mb-[32px]">
+                        <p
+                            class="text-[44px] leading-[53px] font-[700] text-[#1C1C33] pb-[17px] max-[962px]:leading-[42px]">
+                            Upcoming Free Workshops
+                        </p>
+                        <p class="border-b-2 border-[#57D9A6] max-w-[150px] mx-auto"></p>
+                    </div>
+                    <div>
+                        <p
+                            class="max-w-[644px] mx-auto text-center text-[#4E4E65] text-[22px] leading-[33px] mb-[46px] max-[1110px]:text-[20px] max-[1110px]:leading-[30px] max-[1110px]:mb-[44px] max-[962px]:text-[18px] max-[962px]:leading-[26px] max-[768px]:mb-[40px] max-[480px]:mb-[36px] max-[480px]:text-[16px]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros elementum tristique. Duis cursus,
+                            mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+                            libero vitae erat.
+                        </p>
+                    </div>
+                    <div>
+                        <button
+                            class="bg-[#57D9A6] h-[59px] px-[24px] rounded-[4px] text-[18px] leading-[27px] text-[#1C1C33] max-[1110px]:h-[55px] max-[1110px]:px-[22px] max-[962px]:text-[16px] max-[962px]:h-[47px] max-[962px]:px-[20px] tracking-[1px] max-[480px]:text-[14px] uppercase">
+                            View All Workshops
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="grid grid-cols-3 gap-[48px] mt-[80px] max-[1100px]:grid-cols-2 max-[1100px]:gap-[90px] max-[930px]:gap-[40px] max-[690px]:grid-cols-1 max-[690px]:gap-[24px] max-[690px]:place-items-center">
+
+                    <div class="card bg-[#fff] pt-[22px] pl-[24px] pb-[24px] pr-[16px]">
+                        <h3 class="text-[#1C1C33] text-[24px] leading-[29px] font-[700] mb-[11px] max-[1100px]:text-[22px] max-[1100px]:leading-[27px] max-[1100px]:mb-[9px] max-[480px]:text-[20px] max-[480px]:mb-[8px]">Photography Basics</h3>
+                        <p class="text-[#4E4E65] text-[18px] leading-[27px] mb-[28px] max-w-[332px] max-[1100px]:text-[16px] max-[1100px]:mb-[26px] max-[480px]:text-[15px] max-[480px]:mb-[24px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.</p>
+                        <a class="leading-[21px] text-[#57D9A6] uppercase tracking-[1px] max-[480px]:text-[14px] max-[480px]:leading-[19px] hover:underline" href="#">Learn More</a>
+                    </div>
+                    <div class="card bg-[#fff] pt-[22px] pl-[24px] pb-[24px] pr-[16px]">
+                        <h3 class="text-[#1C1C33] text-[24px] leading-[29px] font-[700] mb-[11px] max-[1100px]:text-[22px] max-[1100px]:leading-[27px] max-[1100px]:mb-[9px] max-[480px]:text-[20px] max-[480px]:mb-[8px]">Business 101</h3>
+                        <p class="text-[#4E4E65] text-[18px] leading-[27px] mb-[28px] max-w-[332px] max-[1100px]:text-[16px] max-[1100px]:mb-[26px] max-[480px]:text-[15px] max-[480px]:mb-[24px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.</p>
+                        <a class="leading-[21px] text-[#57D9A6] uppercase tracking-[1px] max-[480px]:text-[14px] max-[480px]:leading-[19px] hover:underline" href="#">Learn More</a>
+                    </div>
+                    <div class="card bg-[#fff] pt-[22px] pl-[24px] pb-[24px] pr-[16px]">
+                        <h3 class="text-[#1C1C33] text-[24px] leading-[29px] font-[700] mb-[11px] max-[1100px]:text-[22px] max-[1100px]:leading-[27px] max-[1100px]:mb-[9px] max-[480px]:text-[20px] max-[480px]:mb-[8px]">Social Networking Camp</h3>
+                        <p class="text-[#4E4E65] text-[18px] leading-[27px] mb-[28px] max-w-[332px] max-[1100px]:text-[16px] max-[1100px]:mb-[26px] max-[480px]:text-[15px] max-[480px]:mb-[24px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.</p>
+                        <a class="leading-[21px] text-[#57D9A6] uppercase tracking-[1px] max-[480px]:text-[14px] max-[480px]:leading-[19px] hover:underline" href="#">Learn More</a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+
+    
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
-
-
-<!-- HERO SECTIONDA BIRINCHI TEXTGA "LETTER SPACING" BERILMADI -->
